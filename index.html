@@ -5,41 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <a href="#main_content" >SKIP TO MAIN CONTENT</a>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li> 
-        <li><a href="neighborhood.html">Neighborhood Walks</a></li> 
-        <li><a href="parks.html">Walks in the Park</a></li>
-      </ul>
-    </nav>
-          <img class="img_index" src="images/bend_in_the_road.png" width="200" alt="Brown Labradoodle sitting next to a statue.">
+    <a  class="skip" href="#main_content" >Skip to the main content</a>
+    <header id="header_content">
+        <nav>
+            <a class="logo" href="main.html">ABDERAHIM</a>
+            <div class="nav_bar">
+                <a class="nav" href="main.html">Main</a>
+                <a class="nav" href="skills.html">Skills</a>
+                <a class="nav" href="contact.html">Contact</a>       
 
-    <h1>Springtime in Michigan</h1>
-  </header>
-  <main  id="main_content">
-    <p>Springtime in <a href="https://www.michigan.org/city/ann-arbor">Ann Arbor</a> is a beautiful time. Even though
-      it can be chilly at times, it is nice to walk my dog Bacon. This site includes some pictures I have taken on
-      these walks. </p>
+            </div>
+        </nav>
+    </header>
+    <main id="main_content">
+        <section class="main_section">
+            <div class="my_own_image">
+                <img class="myimage" src="Images/MYIMG.jpeg" alt="my own image in falls of ouzoud">
 
-    <p>Sometimes we walk around the neighborhood, other times we make it to the woods. Ann Arbor also has some
-      beautiful lakes and rivers including the <a
-        href="https://www.annarbor.org/things-to-do/recreation-outdoors/huron-river/">Huron River Watertrail</a> and
-      the <a href="https://www.a2gov.org/departments/Parks-Recreation/parks-places/argo/pages/default.aspx">Argo Park
-        Cascades</a>.</p>
-
-  </main>
-  <footer>
-    <p>This page was originally created by Colleen van Lent for the <a
-        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
-      Specialization. Students are invited to make changes.</p>
-  </footer>
-
+            </div>
+            <div class="text">
+            <h2>Hello my name is <span>ABDERAHIM</span></h2>
+            <P>I’m Abderahim, a 22-year-old creative who loves coding and design. I work on UI design and front-end development with HTML and CSS, and I also enjoy video editing. Outside of tech, I’m passionate about exploring new places and traveling across my country and beyond.</P>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_paragraph">
+    ©Abderahim | front end developper <BR>
+    COURSERA-ODC-MICHIGAN
+        </p>
+    </footer>
+    <a href="#header_content" class="skip_up">UP</a>
 </body>
-
 </html>
